@@ -26,7 +26,7 @@ function PageLogin() {
     const token = localStorage.getItem('token');
     if (token) {
       // redirect the user to the Goals page
-      window.location.href = '/Goals';
+      window.location.href = '/ToDo';
     }
   }, []);
 
@@ -72,11 +72,6 @@ function PageLogin() {
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
 
-  /*handleSubmit function that:
-    - prevents the default form submit behavior
-    - checks if the entered username and password match a predefined value
-    - sets the message state variable to "Login successful!" if the login is successful
-    - sets the message state variable to "Invalid username or password" if the login is not successful
   const handleSubmit = (e) => {
     e.preventDefault();
     if (username === 'admin' && password === 'password') {
