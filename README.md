@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Vision-Board App is a simple web application (SPA) that allows users to keep track of their goals items and also allows users to add images and journal entries to have a clear vision to follow in order to achieve it.
+Vision-Board App is a simple web application (SPA) that allows users to keep track of their goals and also allows users to add images and journal entries to have a clear vision to follow in order to achieve it.
 
 ## Features
 

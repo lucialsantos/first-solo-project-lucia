@@ -18,12 +18,12 @@ function PageLogin() {
     // send a request to your server to authenticate the user
     // ...
     // if the server returns a successful response, store the user's authentication token in localStorage
-    localStorage.setItem('token', 'your_token');
+    localStorage.setItem('token', 'your_token'); //I need help with all this
   }
 
   useEffect(() => {
     // check if the user's token is stored in localStorage
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token');//and with this too
     if (token) {
       // redirect the user to the Goals page
       window.location.href = '/ToDo';
