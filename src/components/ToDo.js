@@ -26,7 +26,7 @@ function ToDo() {
     <div>
       <form onSubmit={handleSubmit}>
         <label>
-          Todo:
+          Goals:
           <input
             type="text"
             value={todo}

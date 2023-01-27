@@ -16,12 +16,15 @@ function RouterComponent() {
       <div>
         <nav>
           <ul>
-            <li>
-              <Link to="/">Login</Link>
-            </li>
-            <li>
+          <li>
               <Link to="/todo">To-Do</Link>
             </li>
+            {/* <li>
+              <Link to="/">Login</Link>
+            </li> */}
+            {/* <li>
+              <Link to="/todo">To-Do</Link>
+            </li> */}
             <li>
               <Link to="/images">Images</Link>
             </li>
