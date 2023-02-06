@@ -1,18 +1,43 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-function Images() {
-  const [image, setImage] = useState(null);
+// const Images = () => {
+//   const [images, setImages] = useState([]); // empty array to store images
+//   const [imageUrl, setImageUrl] = useState(''); //  empty string to store the input field value
 
-  const handleChange = (e) => {
-    setImage(e.target.files[0]);
-  }
+//   // Function to add an image URL to the images array
+//   const handleSubmit = (event) => {
+//     event.preventDefault(); // Prevent the form from submitting
+//     setImages([...images, imageUrl]); // Spread operator to copy the existing images and add the new image URL
+//     setImageUrl(''); // Reset the input field value
+//   };
 
-  return (
-    <div>
-      <input type="file" onChange={handleChange} />
-      {image && <img src={URL.createObjectURL(image)} alt="Uploaded Image" />}
-    </div>
-  );
-}
+//   // Function to render the images
+//   const renderImages = () => {
+//     return images.map((image, index) => {
+//       return <img key={index} src={image} alt="Vision Board" />;
+//     });
+//   };
 
-export default Images;
+//   return (
+//     <div>
+//       <form onSubmit={handleSubmit}>
+//       <label>
+//           Vision Board
+//       </label>
+//         <input
+//           type="text"
+//           value={imageUrl}
+//           onChange={(event) => setImageUrl(event.target.value)}
+//         />
+//         <button type="submit">Add Image</button>
+//       </form>
+//       {renderImages()}
+//     </div>
+//   );
+// };
+
+// export default Images;
+
+
+
+

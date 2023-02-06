@@ -1,17 +1,61 @@
+/* .ToDo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+} */
+
+/* .Images {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin: 0 10px;
+  }
+
+
+.Journal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+} */
+
+*{
+    margin: 0px;
+    font-family: Sans-serif; 
+    text-align: center;
+}
+
+h1 {
+  color: white;
+  background-image: url(https://artfulparent.com/wp-content/uploads/2022/01/vision-board-pinterest.png);
+  padding-top: 50px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
 form {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: inline-flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin: 0 50px;
+}
+
+input[type="text"], textarea {
+  width: 200px;
+  height: 20px;
+  margin: 10px 0;
+}
+
+button[type="submit"] {
+  width: 70px;
+  height: 35px;
+  margin: 10px 0;
+}
+
+label {
+  align-items: center;
+  margin: 0 30px;
+}  
   
-  label {
-    flex: 1 1 100%;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px
-  }  

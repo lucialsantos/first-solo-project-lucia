@@ -1,4 +1,5 @@
 import './App.css';
+import './ToDo.css';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import ToDo from './components/ToDo'
@@ -10,8 +11,8 @@ export default function App() {
   return(
     <div>
   <ToDo />
- <Journal />
-  <Images /> 
+ {/* <Journal />
+  <Images />  */}
 
     </div>
 
